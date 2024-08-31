@@ -17,7 +17,7 @@ def save_results(results,win_loss,filename='game_results.txt'):
 
 
 
-def main(num_games = 5000):
+def main(num_games = 3000):
     print(os.getcwd())
     players = [Agent("Player 1","Agent"),Bot("Player 2","Agent")]
     game_results = []
